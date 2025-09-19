@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+      "concat-stream": "^2.0.0",
+      "echo": "^0.1.9",
+      "http": "^0.0.1-security",
+      "querystring": "^0.2.1",
+      "split": "^1.0.1",
+      "through2": "^4.0.2"
+    }
+  }
+  

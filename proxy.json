@@ -1,0 +1,8 @@
+var net = require('net');
+
+net.createServer(function (stream) {
+    stream.pipe(net.connect(5001, 'localhost')).pipe(stream)
+}).listen(5002);
+// run net.js
+// then run this file
+// nc localhost 5002 
